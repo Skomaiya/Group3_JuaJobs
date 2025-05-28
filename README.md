@@ -31,9 +31,11 @@ Yvette Kwizera - User Experience Analyst
 
 **6. Descriptive Error Handling**
 
+
     All endpoints return meaningful HTTP status codes and human-readable error messages (e.g., 404 Not Found, 400 Invalid request body), improving developer experience and reducing debugging time.
 
 **7. Modular and Scalable Structure**
+
 
     The API is modular, allowing future extension (e.g., adding /v1/ratings, /v1/notifications) without architectural redesign.
 
