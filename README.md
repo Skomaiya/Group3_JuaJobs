@@ -1,6 +1,9 @@
-Yusuf Molumo - API Architect and Endpoint Designer
-Vestine Pendo - Documentation Specialist
-Samuel Komaiya - Security Designer
+Yusuf Molumo - API Architect and Endpoint Designer,
+
+Vestine Pendo - Documentation Specialist,
+
+Samuel Komaiya - Security Designer,
+
 Yvette Kwizera - User Experience Analyst
 
 
