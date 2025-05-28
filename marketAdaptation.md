@@ -1,25 +1,5 @@
 Phase 5: Market-Specific Design Considerations
 
-Localization Strategy
-Design mechanisms for multi-language support in API responses
-Create standards for currency, date, and unit formatting
-Document region-specific data requirements
-Design cultural adaptations in API behaviour
-
-Connectivity & Performance Optimisation
-Design batch operations for low-connectivity scenarios
-Create caching strategies and cache control mechanisms
-Document payload optimisation techniques
-Design offline-first capabilities for API consumers
-
-Payment Integration Design
-Map integration points with various payment systems
-Design API endpoints for diverse payment methods (mobile money, bank transfers)
-Create transaction state management
-Document security considerations for financial operations
-
-Phase 5: Market-Specific Design Considerations
-
 Delivered by: Yvette Kwizera
 
 JuaJobs serves a diverse African market with multiple languages, currencies, date formats, and cultural norms. The API is designed to respect these regional differences to ensure accessibility and usability.
