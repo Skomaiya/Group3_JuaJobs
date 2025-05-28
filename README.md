@@ -7,7 +7,7 @@ Samuel Komaiya - Security Designer,
 Yvette Kwizera - User Experience Analyst
 
 
-Executive Summary of Key Design Decisions
+**Executive Summary of Key Design Decisions**
 
 1. RESTful Resource-Oriented Architecture
 
