@@ -9,32 +9,32 @@ Yvette Kwizera - User Experience Analyst
 
 ***Executive Summary of Key Design Decisions***
 
-*1. RESTful Resource-Oriented Architecture*
+1. RESTful Resource-Oriented Architecture
 
     We adopted a RESTful design for the API, using nouns to represent core resources (e.g., /v1/users, /v1/jobs, /v1/profiles). This ensures intuitive endpoints and predictability for developers integrating with the platform.
 
-**2. Clear Ownership & Lifecycle Mapping**
+2. Clear Ownership & Lifecycle Mapping
 
     Each resource was designed with explicit ownership and lifecycle considerations. This guided endpoint behaviour (e.g., only clients can create job postings, and only workers can apply) ensures tight control over business logic and data integrity.
 
-**3. Consistent and Granular CRUD Operations**
+3. Consistent and Granular CRUD Operations
 
     Full CRUD (Create, Read, Update, Delete) capabilities were implemented for all major resources using appropriate HTTP verbs (GET, POST, PUT, PATCH, DELETE), giving API consumers complete control over data.
 
-**4. Path Parameters and Sub-resource Nesting**
+4. Path Parameters and Sub-resource Nesting
 
     Nested endpoints such as /v1/users/{id}/jobs or /v1/jobs/{id}/applications provide contextual access to sub-resources, improving usability and aligning with real-world relationships.
 
-**5. Schema-Driven Validation**
+5. Schema-Driven Validation
 
     Each request and response body is governed by JSON schemas defined under components. schemas, ensuring strong typing, validation, and ease of client-side code generation.
 
-**6. Descriptive Error Handling**
+6. Descriptive Error Handling
 
 
     All endpoints return meaningful HTTP status codes and human-readable error messages (e.g., 404 Not Found, 400 Invalid request body), improving developer experience and reducing debugging time.
 
-**7. Modular and Scalable Structure**
+7. Modular and Scalable Structure
 
 
     The API is modular, allowing future extension (e.g., adding /v1/ratings, /v1/notifications) without architectural redesign.
