@@ -71,3 +71,6 @@ Endpoint definitions reflect real-world workflows — e.g., deleting an applicat
 Schemas use optional fields, enumerations, and formats (e.g., `format: email`, `format: date-time`) to enable automated testing, client SDK generation, and robust documentation engines.
 
 ---
+
+### API Documentation:
+https://app.swaggerhub.com/apis-docs/alu-dea/Group3_JuaJobs_API/1.0.0
