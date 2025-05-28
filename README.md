@@ -9,7 +9,7 @@ Yvette Kwizera - User Experience Analyst
 
 ***Executive Summary of Key Design Decisions***
 
-**1. RESTful Resource-Oriented Architecture**
+*1. RESTful Resource-Oriented Architecture*
 
     We adopted a RESTful design for the API, using nouns to represent core resources (e.g., /v1/users, /v1/jobs, /v1/profiles). This ensures intuitive endpoints and predictability for developers integrating with the platform.
 
